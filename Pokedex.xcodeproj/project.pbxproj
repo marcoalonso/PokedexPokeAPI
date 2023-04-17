@@ -9,20 +9,21 @@
 /* Begin PBXBuildFile section */
 		6CE4BBE929EDE76900B37955 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE4BBE829EDE76900B37955 /* AppDelegate.swift */; };
 		6CE4BBEB29EDE76900B37955 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE4BBEA29EDE76900B37955 /* SceneDelegate.swift */; };
-		6CE4BBED29EDE76900B37955 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE4BBEC29EDE76900B37955 /* ViewController.swift */; };
+		6CE4BBED29EDE76900B37955 /* PokemonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE4BBEC29EDE76900B37955 /* PokemonsViewController.swift */; };
 		6CE4BBF029EDE76900B37955 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CE4BBEE29EDE76900B37955 /* Main.storyboard */; };
 		6CE4BBF229EDE76B00B37955 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CE4BBF129EDE76B00B37955 /* Assets.xcassets */; };
 		6CE4BBF529EDE76B00B37955 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CE4BBF329EDE76B00B37955 /* LaunchScreen.storyboard */; };
 		6CE4BBFD29EDEB5800B37955 /* PokemonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE4BBFC29EDEB5800B37955 /* PokemonManager.swift */; };
 		6CE4BBFF29EDEC0F00B37955 /* ResponsePokemonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE4BBFE29EDEC0F00B37955 /* ResponsePokemonModel.swift */; };
 		6CE4BC0129EDF27200B37955 /* PokemonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE4BC0029EDF27200B37955 /* PokemonCell.swift */; };
+		6CE4BC0429EDF3F600B37955 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 6CE4BC0329EDF3F600B37955 /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6CE4BBE529EDE76900B37955 /* Pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CE4BBE829EDE76900B37955 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6CE4BBEA29EDE76900B37955 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6CE4BBEC29EDE76900B37955 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6CE4BBEC29EDE76900B37955 /* PokemonsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonsViewController.swift; sourceTree = "<group>"; };
 		6CE4BBEF29EDE76900B37955 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6CE4BBF129EDE76B00B37955 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CE4BBF429EDE76B00B37955 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CE4BC0429EDF3F600B37955 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,7 +66,7 @@
 			children = (
 				6CE4BBE829EDE76900B37955 /* AppDelegate.swift */,
 				6CE4BBEA29EDE76900B37955 /* SceneDelegate.swift */,
-				6CE4BBEC29EDE76900B37955 /* ViewController.swift */,
+				6CE4BBEC29EDE76900B37955 /* PokemonsViewController.swift */,
 				6CE4BBEE29EDE76900B37955 /* Main.storyboard */,
 				6CE4BBF129EDE76B00B37955 /* Assets.xcassets */,
 				6CE4BBF329EDE76B00B37955 /* LaunchScreen.storyboard */,
@@ -92,6 +94,9 @@
 			dependencies = (
 			);
 			name = Pokedex;
+			packageProductDependencies = (
+				6CE4BC0329EDF3F600B37955 /* Kingfisher */,
+			);
 			productName = Pokedex;
 			productReference = 6CE4BBE529EDE76900B37955 /* Pokedex.app */;
 			productType = "com.apple.product-type.application";
@@ -120,6 +125,9 @@
 				Base,
 			);
 			mainGroup = 6CE4BBDC29EDE76900B37955;
+			packageReferences = (
+				6CE4BC0229EDF3F600B37955 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 6CE4BBE629EDE76900B37955 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -147,7 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CE4BBED29EDE76900B37955 /* ViewController.swift in Sources */,
+				6CE4BBED29EDE76900B37955 /* PokemonsViewController.swift in Sources */,
 				6CE4BBFF29EDEC0F00B37955 /* ResponsePokemonModel.swift in Sources */,
 				6CE4BBE929EDE76900B37955 /* AppDelegate.swift in Sources */,
 				6CE4BBEB29EDE76900B37955 /* SceneDelegate.swift in Sources */,
@@ -228,7 +236,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -282,7 +290,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -372,6 +380,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6CE4BC0229EDF3F600B37955 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6CE4BC0329EDF3F600B37955 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6CE4BC0229EDF3F600B37955 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6CE4BBDD29EDE76900B37955 /* Project object */;
 }
